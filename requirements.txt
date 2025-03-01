@@ -1,0 +1,26 @@
+# for MiniCPM-2B hf inference
+torch>=2.0.0
+transformers>=4.36.2
+gradio>=4.26.0
+rouge-score
+
+# for openai api inference
+openai>=1.17.1
+tiktoken>=0.6.0
+loguru>=0.7.2
+sentence_transformers>=2.6.1
+sse_starlette>=2.1.0
+
+# for MiniCPM-V hf inference
+Pillow>=10.3.0
+timm>=0.9.16
+sentencepiece>=0.2.0
+peft
+
+# for finetune
+ruamel_yaml>=0.18.5
+rouge_chinese>=1.0.3
+jupyter>=1.0.0
+datasets>=2.16.1
+deepspeed>=0.13.1
+flash_attn>=2.5.1
