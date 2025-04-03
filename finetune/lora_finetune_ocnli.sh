@@ -7,9 +7,9 @@ export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
 deepspeed --include localhost:0 --master_port 19888 finetune.py \
     --model_name_or_path /content/MiniCPM3-4B \
     --output_dir output/OCNLILoRA/$formatted_time/ \
-    --train_data_path data/data_6558/train.json \
-    --eval_data_path data/data_6558/dev.json \
-    --learning_rate 5e-6 \
+    --train_data_path data/data_3765/train.json \
+    --eval_data_path data/data_3765/dev.json \
+    --learning_rate 2e-5 \
     --per_device_train_batch_size 2 \
     --per_device_eval_batch_size 2 \
     --model_max_length 1024 \
